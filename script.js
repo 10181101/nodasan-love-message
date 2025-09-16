@@ -142,7 +142,7 @@ function displayRandomMessage() {
 
     // 新しいインデックスを保存し、メッセージをHTMLとして更新
     currentIndex = newIndex;
-    **messageText.innerHTML = messages[currentIndex];** // ここを修正しました
+    messageText.innerHTML = messages[currentIndex]; // ここを修正しました
 }
 
 // ボタンにクリックイベントを設定
